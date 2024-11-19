@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "deploy": "gh-pages -d _site",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start":"eleventy --serve",
-    "build": "eleventy",
-    "deploy": "gh-pages -d _site"
+    "build": "eleventy"
+
   },
   "keywords": [],
   "author": "",
